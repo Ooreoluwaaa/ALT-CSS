@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(227, 220, 220);
+    padding: 0px;
+    font-size: 15px;
+}
+
+.card {
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.intro p {
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.passion {
+    color: #00bf6f;  
+}
+
+.logistics {
+    color: #1b4ff5;  
+}
+
+.divider {
+    height: 40px;  
+    background-color: #808080;
+    margin: 2rem 0;
+    margin-bottom: 1px;
+}
+
+.highlight-section {
+    background-color: #ffc107;
+    padding: 1rem;
+    margin: 1rem 0;
+    margin-top: 1px;
+}
+
+.highlight-section h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.Divider {
+    height: 40px;  
+    background-color: #808080;
+    margin: 2rem 0;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .card {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    .highlight-section {
+        margin: 1rem 0;
+    }
+}

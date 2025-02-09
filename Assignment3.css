@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b8b5d1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.container {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    border-width: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.badge {
+    background-color: #ffffc0;
+    padding: 8px 16px;
+    position: absolute;
+    top: 0.5rem;
+    left: -0.6rem;
+    z-index: 1;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.image-container {
+    width: 100%;
+    background-color: #e0e0e0;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 24px 32px 32px;
+}
+
+.series {
+    color: rgb(203, 203, 230);
+    font-size: 18px;
+}
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+h1 span {
+    color: #666;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.tech{
+    font-size: large;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 16px;
+    }
+    
+    .content {
+        padding: 20px 24px 24px;
+    }
+
+    .badge {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 12px;
+    }
+
+    .content {
+        padding: 16px 20px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .badge {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+}
